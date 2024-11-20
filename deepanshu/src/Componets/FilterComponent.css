@@ -1,0 +1,76 @@
+/* Filter Container */
+.filter-container {
+    height:100vh;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Checkbox Section */
+.filter-container input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.filter-container label {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Filter Section */
+.filter-section {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.filter-section:last-child {
+    border-bottom: none;
+}
+
+/* Filter Header */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #333;
+}
+
+.filter-header:hover {
+    color: #007bff; /* Add hover effect */
+}
+
+/* Collapsed/Expanded Icon */
+.filter-header span:last-child {
+    font-size: 16px;
+}
+
+/* Dropdown (Visible only when expanded) */
+.filter-dropdown {
+    margin-top: 5px;
+}
+
+.filter-dropdown select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+.filter-dropdown select:focus {
+    border-color: #007bff;
+}
+
+/* Spacing */
+.filter-container div {
+    margin-top: 10px;
+}

@@ -1,0 +1,148 @@
+/* Footer Container */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Newsletter Section */
+.footer-newsletter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-newsletter h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-input input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.newsletter-input button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter-input button:hover {
+    background-color: #ccc;
+}
+
+/* Divider */
+.footer-divider {
+    border: 0.5px solid #555;
+    margin: 20px 0;
+}
+
+/* Footer Sections */
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-left h4,
+.footer-center h4,
+.footer-right h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-left ul,
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left ul li,
+.footer-center ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-left ul li:hover,
+.footer-center ul li:hover {
+    color: #ccc;
+}
+
+.footer-right p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-right small {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #bbb;
+}
+
+/* Social Media and Payment */
+.footer-socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-socials i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-socials i:hover {
+    background-color: #ccc;
+}
+
+.footer-payment img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777;
+}

@@ -1,0 +1,14 @@
+.filterBar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:.25rem 1rem;
+}
+.line{
+    width: 100vw;
+    border-top:1rem black ;
+}
+.space-between{
+    margin-left: 1rem;
+}

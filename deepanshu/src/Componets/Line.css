@@ -1,0 +1,6 @@
+.custom-line {
+    border-top: 1px solid #757574; /* Orange color and thicker border */
+    width: 100%; /* Custom width (50% of the parent container) */
+/* Center the line horizontally */
+  }
+  
